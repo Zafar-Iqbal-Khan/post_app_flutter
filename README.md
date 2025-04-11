@@ -43,8 +43,6 @@ lib/
 
 ## 📦 Dependencies
 
-Make sure your `pubspec.yaml` includes the following:
-
 ```yaml
 dependencies:
   flutter:
