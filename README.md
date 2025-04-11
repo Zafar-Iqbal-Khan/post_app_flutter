@@ -27,8 +27,7 @@ A sample Flutter app demonstrating **Clean Architecture principles** using **Riv
 lib/
 ├── data/
 │   ├── models/                # DTOs (Data Transfer Objects)
-│   ├── repositories/          # Concrete implementations of repositories
-│   └── sources/               # Remote data sources (API)
+│   └── repositories/          # Concrete implementations of repositories
 ├── domain/
 │   ├── entities/              # Core business models
 │   ├── repositories/          # Abstract repository interfaces
