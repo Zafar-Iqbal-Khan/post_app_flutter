@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../widgets/loading_widget.dart';
+import '../widgets/loading_widget.dart';
 import '../providers/post_providers.dart';
 
 class PostListScreen extends ConsumerWidget {
