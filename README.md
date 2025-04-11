@@ -64,7 +64,6 @@ This app uses the public [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 ---
 
 
----
 
 ## 📥 Download APK
 
