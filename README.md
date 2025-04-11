@@ -1,46 +1,52 @@
-📱 Flutter Clean Architecture Example (Riverpod)
-This project is a sample Flutter app that demonstrates Clean Architecture principles using Riverpod as the state management solution. It fetches posts from a public REST API and displays them in a beautiful list UI with card-based post previews and images.
+# 📱 Flutter Clean Architecture Example (Riverpod)
 
-🚀 Features
-✅ Clean Architecture Structure
+A sample Flutter app demonstrating **Clean Architecture principles** using **Riverpod** for state management. The app fetches posts from the JSONPlaceholder API and displays them in a beautifully designed list with card-based post previews and random image thumbnails.
 
-✅ Riverpod for state management
+---
 
-✅ Separation of concerns (Presentation, Domain, Data)
+## 🚀 Features
 
-✅ Remote API integration with Dio
+- ✅ Clean Architecture Structure  
+- ✅ Riverpod for State Management  
+- ✅ Layered Separation of Concerns  
+  - Presentation  
+  - Domain  
+  - Data  
+- ✅ Remote API Integration with Dio  
+- ✅ Custom Model Mapping (DTOs to Entities)  
+- ✅ Material 3 UI  
+- ✅ Error & Loading States  
+- ✅ Pull-to-Refresh Support  
+- ✅ Random Thumbnails for Visual Appeal  
 
-✅ Custom model mapping
+---
 
-✅ Modern UI with Material 3
+## 🧠 Architecture Overview
 
-✅ Error and loading states
-
-✅ Refresh to reload posts
-
-✅ Random image thumbnails for aesthetics
-
-🧠 Architecture Overview
-
+```
 lib/
 ├── data/
-│   ├── models/                # DTOs
-│   ├── repositories/          # Concrete implementations
-│   └── sources/               # API / Remote data access
+│   ├── models/                # DTOs (Data Transfer Objects)
+│   ├── repositories/          # Concrete implementations of repositories
+│   └── sources/               # Remote data sources (API)
 ├── domain/
 │   ├── entities/              # Core business models
-│   ├── repositories/          # Abstract repositories
-│   └── usecases/              # Business logic
+│   ├── repositories/          # Abstract repository interfaces
+│   └── usecases/              # Application-specific business rules
 ├── presentation/
 │   ├── providers/             # Riverpod providers
-│   ├── screens/               # UI Screens
-│   └── widgets/               # Reusable widgets
-└── main.dart                  # App entry
+│   ├── screens/               # UI screens
+│   └── widgets/               # Reusable UI components
+└── main.dart                  # App entry point
+```
 
-📦 Dependencies
-Make sure your pubspec.yaml includes:
+---
 
+## 📦 Dependencies
 
+Make sure your `pubspec.yaml` includes the following:
+
+```yaml
 dependencies:
   flutter:
     sdk: flutter
@@ -48,24 +54,46 @@ dependencies:
   dio: ^5.0.0
   freezed_annotation: ^2.4.1
   json_annotation: ^4.8.0
+```
 
-🔗 API Used
-Data is fetched from JSONPlaceholder.
+---
 
-🛠 Setup
-Clone the repo:
+## 🔗 API Used
 
+This app uses the public [JSONPlaceholder](https://jsonplaceholder.typicode.com/) REST API to fetch post data.
 
+---
+
+## 🛠 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/zafar-iqbal-khan/post_app_flutter.git
-cd post_app
-Get packages:
+cd post_app_flutter
+```
 
+### 2. Install Dependencies
 
+```bash
 flutter pub get
+```
 
-Run the app:
+### 3. Run the App
 
-
+```bash
 flutter run
+```
+
+---
 
 
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests. Contributions are welcome!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
