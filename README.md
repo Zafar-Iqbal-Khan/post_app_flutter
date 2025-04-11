@@ -67,7 +67,7 @@ This app uses the public [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 
 ## 📥 Download APK
 
-You can download the latest release APK [here](https://github.com/zafar-iqbal-khan/post_app_flutter/release_apk/app-release.apk).
+You can download the latest release APK [here](https://github.com/zafar-iqbal-khan/post_app/release_apk/app-release.apk).
 
 ---
 
